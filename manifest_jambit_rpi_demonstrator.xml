@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="ssh://git@github.com/" />
+  <remote name="github-ssh" fetch="ssh://git@github.com/" />
 
   <!-- Raspberry Pi 5 Demonstrator -->
-  <project path="device/jambit/rpi5-demonstrator" name="Katric/android_device_jambit_rpi5-demonstrator" remote="private" revision="android-14.0.0_r22" />
+  <project path="device/jambit/rpi5-demonstrator" name="Katric/android_device_jambit_rpi5-demonstrator" remote="github-ssh" revision="android-14.0.0_r22" />
 </manifest>
