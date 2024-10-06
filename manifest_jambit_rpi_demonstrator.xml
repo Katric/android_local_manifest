@@ -3,5 +3,7 @@
   <remote name="github-ssh" fetch="ssh://git@github.com/" />
 
   <!-- Raspberry Pi 5 Demonstrator -->
-  <project path="device/jambit/rpi5-demonstrator" name="Katric/android_device_jambit_rpi5-demonstrator" remote="github-ssh" revision="android-14.0.0_r22" />
+  <project path="device/jambit/rpi5-demonstrator" name="Katric/android_device_jambit_rpi5-demonstrator" remote="github-ssh" revision="android-14.0.0_r22" >
+      <linkfile src="mkimg.sh" dest="demonstrator-rpi5-mkimg.sh" />
+  </project>
 </manifest>
