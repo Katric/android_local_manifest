@@ -19,14 +19,14 @@ sudo pip3 install meson mako jinja2 ply pyyaml dataclasses
 3. Initialize the repository using repo:
 
 ```shell
-repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r1 --depth=1
+repo init -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r22 --depth=1
 ```
 
 4. Additionaly, add the manifests for Raspberry Vanilla and the demonstrator project:
 
 ```shell
-curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-15.0/manifest_brcm_rpi.xml --create-dirs
-curl -o .repo/local_manifests/remove_projects.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-15.0/remove_projects.xml
+curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-14.0.0_r22/manifest_brcm_rpi.xml --create-dirs
+curl -o .repo/local_manifests/remove_projects.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-14.0.0_r22/remove_projects.xml
 curl -o .repo/local_manifests/manifest_jambit_rpi_demonstrator.xml https://raw.githubusercontent.com/Katric/android_local_manifest/refs/heads/android-14.0.0_r22/manifest_jambit_rpi_demonstrator.xml
 ```
 
