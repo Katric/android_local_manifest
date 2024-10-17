@@ -3,7 +3,7 @@
   <remote name="github-ssh" fetch="ssh://git@github.com/" />
 
   <!-- Raspberry Pi Android Automotive Demonstrator -->
-  <project path="device/jambit" name="Katric/android_device_jambit" remote="github-ssh" revision="feature/AAD-114-device-config-rpi4-rpi5" >
+  <project path="device/jambit" name="Katric/android_device_jambit" remote="github-ssh" revision="android-14.0.0_r22" >
       <linkfile src="rpi4-demonstrator/mkimg.sh" dest="demonstrator-rpi4-mkimg.sh" />
       <linkfile src="rpi5-demonstrator/mkimg.sh" dest="demonstrator-rpi5-mkimg.sh" />
   </project>
